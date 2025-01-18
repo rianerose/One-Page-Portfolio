@@ -3,7 +3,7 @@
     font-family: "Inter", serif;
     font-optical-sizing: auto;
 }
-@media only screen and (max-width: 425px) and (min-width: 320px) {
+@media only screen and (max-width: 768px) and (min-width: 320px) {
     html {
         scroll-behavior: smooth;
     }
@@ -246,7 +246,7 @@
         font-size: 20px;
     }
 }
-@media only screen and (max-width: 1440px) and (min-width: 768px) {
+@media only screen and (max-width: 1440px) and (min-width: 769px) {
     html {
         scroll-behavior: smooth;
     }
