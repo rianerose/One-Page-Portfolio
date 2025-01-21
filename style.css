@@ -272,6 +272,7 @@
         border: 1px solid #000000;
         border-radius: 16px;
         margin: 10px 0 10px 0;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
     }
     .prj:hover {
         cursor: pointer;
@@ -590,6 +591,7 @@
         border: 1px solid #000000;
         border-radius: 16px;
         margin: 10px 0 10px 0;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
     }
     .prj:hover {
         cursor: pointer;
