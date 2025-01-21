@@ -25,6 +25,7 @@
         background-color: rgba(255, 255, 255, 0.7);
         backdrop-filter: blur(5px);
         position: fixed;
+        z-index: 999;
     }
     nav {
         margin: 0;
@@ -95,11 +96,13 @@
         border: 1px solid black;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
         transition: all 0.3s ease;
+        background-color: #ffffff;
     }
     #ci {
         border: 1px solid black;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
         transition: all 0.3s ease;
+        background-color: #ffffff;
     }
     #cv:hover {
         background-color: black;
@@ -127,6 +130,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        margin-bottom: 24px;
     }
     #about-me-dp-exp {
         display: flex;
@@ -192,6 +196,7 @@
         align-items: center;
         justify-content: center;
         padding-top: 24px;
+        margin-bottom: 24px;
     }
     #ts-text p {
         text-align: center;
@@ -245,6 +250,59 @@
         font-weight: 700;
         font-size: 20px;
     }
+    #projects {
+        max-width: 100%;
+        padding-top: 24px;
+    }
+    #prj-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0 10px 0;
+    }
+    #prj-container {
+        padding: 0 16px 0 16px;
+    }
+    .prj {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        min-height: 256px;
+        width: 100%;
+        border: 1px solid #000000;
+        border-radius: 16px;
+        margin: 10px 0 10px 0;
+    }
+    .prj:hover {
+        cursor: pointer;
+    }
+    .prj-img {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .prj-img img {
+        height: 128px;
+        width: 100%;
+        margin: 0;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        filter: grayscale(1);
+    }
+    .prj-img img:hover {
+        filter: grayscale(0);
+    }
+    .prj-info {
+        height: 50%;
+        padding: 16px;
+    }
+    .prj-info p:nth-child(1) {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .prj-info p:nth-child(2) {
+        font-size: 16px;
+    }
 }
 @media only screen and (max-width: 1440px) and (min-width: 769px) {
     html {
@@ -268,6 +326,7 @@
         background-color: rgba(255, 255, 255, 0.7);
         backdrop-filter: blur(5px);
         position: fixed;
+        z-index: 999;
     }
     nav {
         margin: 0;
@@ -341,11 +400,13 @@
         border: 1px solid black;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
         transition: all 0.3s ease;
+        background-color: #ffffff;
     }
     #ci {
         border: 1px solid black;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
         transition: all 0.3s ease;
+        background-color: #ffffff;
     }
     #cv:hover {
         background-color: black;
@@ -496,5 +557,71 @@
     .lang-class {
         font-weight: 700;
         font-size: 20px;
+    }
+    #projects {
+        max-width: 100%;
+        padding-top: 24px;
+    }
+    #prj-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #prj-text h1 {
+        margin: 10px 0 0 0;
+        font-size: 48px;
+    }
+    #prj-text p {
+        margin: 20px 0 20px 0;
+    }
+    #prj-container {
+        padding: 0 16px 0 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 24px;
+    }
+    .prj {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        min-height: 256px;
+        width: 75%;
+        border: 1px solid #000000;
+        border-radius: 16px;
+        margin: 10px 0 10px 0;
+    }
+    .prj:hover {
+        cursor: pointer;
+    }
+    .prj-img {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .prj-img img {
+        height: 128px;
+        width: 100%;
+        margin: 0;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        filter: grayscale(1);
+    }
+    .prj-img img:hover {
+        filter: grayscale(0);
+    }
+    .prj-info {
+        height: 50%;
+        padding: 16px;
+    }
+    .prj-info p:nth-child(1) {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 10px 0 0 0;
+    }
+    .prj-info p:nth-child(2) {
+        font-size: 16px;
+        margin: 0;
+        margin: 10px 0 0 0;
     }
 }
